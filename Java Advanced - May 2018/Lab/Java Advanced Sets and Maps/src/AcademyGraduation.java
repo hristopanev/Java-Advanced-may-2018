@@ -18,8 +18,6 @@ public class AcademyGraduation {
             students.put(studentName, studentGrades);
         }
 
-
-
         for (Map.Entry<String, double[]> entry : students.entrySet()) {
             double avg = 0;
             for (double s : entry.getValue()) {
@@ -29,7 +27,5 @@ public class AcademyGraduation {
             System.out.printf("%s is graduated with %s%n",
                     entry.getKey(), avg);
         }
-
-
     }
 }
