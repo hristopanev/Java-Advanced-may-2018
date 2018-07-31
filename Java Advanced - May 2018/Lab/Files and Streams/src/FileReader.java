@@ -14,14 +14,17 @@ public class FileReader {
         String resourceFolder = "D:\\Project\\Java\\Java-Fundamentals\\Java Advanced - May 2018\\Lab\\Files and Streams\\resources";
 
 
-        Path pathInput = Paths.get
-                ("D:\\Project\\Java\\Java-Fundamentals\\" +
-                        "Java Advanced - May 2018\\Lab\\Files and Streams\\resources\\input.txt");
+       // String input = "D:\\Project\\Java\\Java-Fundamentals\\Java Advanced - May 2018\\Lab\\Files and Streams\\resources";
+       // String output = "D:\\Project\\Java\\Java-Fundamentals\\Java Advanced - May 2018\\Lab\\Files and Streams\\resources";
 
-        Path pathOutput = Paths.get
-                ("D:\\Project\\Java\\Java-Fundamentals\\" +
-                        "Java Advanced - May 2018\\Lab\\Files and Streams\\resources\\input.txt");
-
+        //Path pathInput = Paths.get
+        //        ("D:\\Project\\Java\\Java-Fundamentals\\" +
+        //                "Java Advanced - May 2018\\Lab\\Files and Streams\\resources\\input.txt");
+//
+        //Path pathOutput = Paths.get
+        //        ("D:\\Project\\Java\\Java-Fundamentals\\" +
+        //                "Java Advanced - May 2018\\Lab\\Files and Streams\\resources\\input.txt");
+//
 
         String rootDirectoryPath = resourceFolder + "Files-and-Streams";
 
