@@ -1,3 +1,5 @@
+package P04_SortStudent;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
