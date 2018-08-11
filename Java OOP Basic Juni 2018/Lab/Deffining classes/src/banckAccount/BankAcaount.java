@@ -1,4 +1,4 @@
-package DefiningClass;
+package banckAccount;
 
 public class BankAcaount {
 
@@ -23,7 +23,7 @@ public class BankAcaount {
 
     @Override
     public String toString(){
-        return String.format("Account with id: %d has balance: %.2f",
+        return String.format("Account ID%d, balance %.2f",
                 this.id, this.balance);
     }
 }
