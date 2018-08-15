@@ -17,15 +17,18 @@ public class Main {
             String[] tokens = reader.readLine().split("\\s+");
             String name = tokens[0];
             int age = Integer.parseInt(tokens[1]);
-            Person person = null;
 
             if (age > 30) {
-                person = new Person(name, age);
+               Person person = new Person(name, age);
+                people.add(person);
             }
-            people.add(person);
         }
-        Collections.sort(people);
-        people.forEach(p -> System.out.printf("%s - %d%n", p.name, p.age));
+
+        people.stream()
+                .sorted((s1, s2) -> {
+                    return s1.getName().compareTo(s2.getName());
+                })
+                .forEach(System.out::println);
 
 
     }

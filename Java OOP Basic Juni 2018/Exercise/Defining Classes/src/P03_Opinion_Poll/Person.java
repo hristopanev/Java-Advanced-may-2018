@@ -1,6 +1,6 @@
 package P03_Opinion_Poll;
 
-public class Person implements Comparable<Person>{
+public class Person{
     String name;
     int age;
 
@@ -14,8 +14,8 @@ public class Person implements Comparable<Person>{
     }
 
     @Override
-    public int compareTo(Person p){
-        return this.getName().compareTo(p.getName());
+    public String toString() {
+        return String.format("%s - %d", this.name, this.age);
     }
 }
 
