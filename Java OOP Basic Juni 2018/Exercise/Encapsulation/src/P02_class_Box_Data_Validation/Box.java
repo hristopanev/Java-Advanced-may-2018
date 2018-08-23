@@ -11,21 +11,21 @@ public class Box {
         this.setHeight(height);
     }
 
-    public void setLenght(double lenght) {
+    private void setLenght(double lenght) {
         if (lenght <= 0){
             throw  new  IllegalArgumentException("Length cannot be zero or negative.");
         }
         this.lenght = lenght;
     }
 
-    public void setWidth(double width) {
+    private void setWidth(double width) {
         if (width <= 0){
             throw  new  IllegalArgumentException("Width cannot be zero or negative.");
         }
         this.width = width;
     }
 
-    public void setHeight(double height) {
+    private void setHeight(double height) {
         if (height <= 0){
             throw  new  IllegalArgumentException("Height cannot be zero or negative.");
         }
