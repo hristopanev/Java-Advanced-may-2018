@@ -3,7 +3,7 @@ SELECT
 FROM
     towns
 WHERE
-		LEFT(name, 1) != 'B'
+	LEFT(name, 1) != 'B'
         AND LEFT(name, 1) != 'R'
         AND LEFT(name, 1) != 'D'
 ORDER BY name;
