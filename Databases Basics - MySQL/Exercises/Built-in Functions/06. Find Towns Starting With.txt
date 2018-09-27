@@ -1,0 +1,10 @@
+SELECT 
+    town_id, name
+FROM
+    towns
+WHERE
+    LEFT(name, 1) = 'M'
+        OR LEFT(name, 1) = 'K'
+        OR LEFT(name, 1) = 'B'
+        OR LEFT(name, 1) = 'E'
+ORDER BY name;
