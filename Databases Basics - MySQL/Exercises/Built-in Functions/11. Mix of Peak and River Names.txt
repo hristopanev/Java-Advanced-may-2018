@@ -1,7 +1,7 @@
 SELECT 
 	`peaks`.`peak_name`,
-    `rivers`.`river_name`,
-    lower(concat(LEFT(`peaks`.`peak_name`, LENGTH(`peaks`.`peak_name`)- 1), '', `rivers`.`river_name`)) AS 'mix'
+	`rivers`.`river_name`,
+	lower(concat(LEFT(`peaks`.`peak_name`, LENGTH(`peaks`.`peak_name`)- 1), '', `rivers`.`river_name`)) AS 'mix'
 FROM `peaks`
 JOIN `rivers` ON right(`peaks`.`peak_name`, 1) = LEFT(`rivers`.`river_name`, 1)
 ORDER BY mix;
