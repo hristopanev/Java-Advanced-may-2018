@@ -1,0 +1,8 @@
+SELECT 
+    w.deposit_group,
+    w.is_deposit_expired,
+    AVG(w.deposit_interest) AS 'average_interest'
+FROM wizzard_deposits AS w
+WHERE deposit_start_date > '01/01/1985'
+GROUP BY is_deposit_expired, deposit_group
+ORDER BY 'average_interest' ASC, deposit_group DESC;
