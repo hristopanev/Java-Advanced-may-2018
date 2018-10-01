@@ -3,4 +3,4 @@ SELECT
 FROM
     wizzard_deposits
 GROUP BY deposit_group
-ORDER BY total_sum;
+ORDER BY total_sum; 
