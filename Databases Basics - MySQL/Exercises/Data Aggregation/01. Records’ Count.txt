@@ -1,4 +1,4 @@
 SELECT 
-    COUNT(*) AS 'count'
+    COUNT(*) AS 'count' 
 FROM
     wizzard_deposits;
