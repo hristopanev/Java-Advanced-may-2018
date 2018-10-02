@@ -4,4 +4,4 @@ SELECT
 FROM
     wizzard_deposits
 GROUP BY deposit_group
-ORDER BY MAX(magic_wand_size);
+ORDER BY MAX(magic_wand_size); 
