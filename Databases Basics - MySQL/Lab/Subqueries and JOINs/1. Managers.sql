@@ -4,7 +4,7 @@ SELECT
     d.department_id,
     d.name
 FROM
-    employees AS e
+    employees AS e 
         RIGHT JOIN
     departments AS d ON d.manager_id = e.employee_id
 ORDER BY employee_id
