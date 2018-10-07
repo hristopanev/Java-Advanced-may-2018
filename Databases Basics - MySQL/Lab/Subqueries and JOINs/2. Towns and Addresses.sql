@@ -7,5 +7,5 @@ FROM
 WHERE
     t.name = 'San Francisco'
         OR t.name = 'Sofia'
-        OR t.name = 'Carnation'
+        OR t.name = 'Carnation' 
 ORDER BY town_id , address_id;
