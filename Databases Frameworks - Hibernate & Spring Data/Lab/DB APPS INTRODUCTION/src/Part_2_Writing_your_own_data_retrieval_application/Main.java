@@ -34,9 +34,9 @@ public class Main {
 
 
 
-        if (rs.){
-            System.out.println("No such user exists");
-        }
+     // if (rs =){
+     //     System.out.println("No such user exists");
+     // }
 
         while (rs.next()){
 

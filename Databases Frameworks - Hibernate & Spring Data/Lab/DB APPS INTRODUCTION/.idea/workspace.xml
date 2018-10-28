@@ -2,53 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c747b064-895b-48a0-b089-d6f94f01a724" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p01/Define_an_Interface_Person/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p01/Define_an_Interface_Person/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p01/Define_an_Interface_Person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p02/Multiple_Implementation/Birthable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p02/Multiple_Implementation/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p02/Multiple_Implementation/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p02/Multiple_Implementation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p02/Multiple_Implementation/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p03/Ferrari/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p03/Ferrari/Ferrari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p03/Ferrari/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p04/Telephony/Browse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p04/Telephony/Call.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p04/Telephony/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p04/Telephony/Smartphones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p05/Border_Control/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p05/Border_Control/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p05/Border_Control/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p05/Border_Control/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p06/Birday_Celebration/Birthable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p06/Birday_Celebration/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p06/Birday_Celebration/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p06/Birday_Celebration/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p06/Birday_Celebration/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p06/Birday_Celebration/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p07/Manking/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p07/Manking/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p07/Manking/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Exercise/Java OOP Principles/src/p07/Manking/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo/DataRepository/DataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo/Employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo/repositories/EmployeesDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo/repositories/JdbcDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part_1_Accessing_Database_via_Simple_Java_Application/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part_2_Writing_your_own_data_retrieval_application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Databases Basics - MySQL/EXAM 21.1.2018/TABLE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Databases Basics - MySQL/EXAM 21.1.2018/TABLE.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java Advanced - May 2018/Exam Preparation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java Advanced - May 2018/Exam Preparation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java Advanced - May 2018/Lab/Functional Programming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java Advanced - May 2018/Lab/Functional Programming/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java OOP Basic Juni 2018/Lab/Polymorphism/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java OOP Basic Juni 2018/Lab/Polymorphism/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DB APPS INTRODUCTION/Part_2_Writing_your_own_data_retrieval_application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DB APPS INTRODUCTION/Part_2_Writing_your_own_data_retrieval_application/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part_2_Writing_your_own_data_retrieval_application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part_2_Writing_your_own_data_retrieval_application/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,14 +55,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2551" />
+          <entry key="java" value="2562" />
           <entry key="sql" value="192" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2550" />
+          <entry key="JAVA" value="2561" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="192" />
@@ -116,20 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4ed3321-7424-4845-8abc-6b71d6dcb336/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="20" selection-start-line="8" selection-end-line="8" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Part_2_Writing_your_own_data_retrieval_application/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,28 +85,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/mysql-connector-java-8.0.13-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLError.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/mysql-connector-java-8.0.13-sources.jar!/com/mysql/cj/jdbc/result/ResultSetImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="850" column="16" selection-start-line="850" selection-start-column="16" selection-end-line="850" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0610eb1-8601-4b8e-9de7-561b166364c4/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="13" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="250">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -225,16 +154,6 @@
               <item name="DB APPS INTRODUCTION" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DB APPS INTRODUCTION" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DB APPS INTRODUCTION" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Part_1_Accessing_Database_via_Simple_Java_Application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DB APPS INTRODUCTION" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -246,8 +165,8 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540737624055" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540751110854" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -334,12 +253,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540568418172</updated>
       <workItem from="1540568420187" duration="498000" />
-      <workItem from="1540570295415" duration="18340000" />
+      <workItem from="1540570295415" duration="20533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18838000" />
+    <option name="totallyTimeSpent" value="21031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
@@ -352,11 +271,11 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="0" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.24055944" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -510,20 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0610eb1-8601-4b8e-9de7-561b166364c4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="13" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4ed3321-7424-4845-8abc-6b71d6dcb336/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="20" selection-start-line="8" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Desktop/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -562,10 +467,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4ed3321-7424-4845-8abc-6b71d6dcb336/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" selection-start-line="8" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0610eb1-8601-4b8e-9de7-561b166364c4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Part_2_Writing_your_own_data_retrieval_application/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
