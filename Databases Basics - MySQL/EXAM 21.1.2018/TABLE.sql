@@ -1,8 +1,8 @@
-#DROP DATABASE colonial_journey_management_system_db;
+DROP DATABASE colonial_journey_management_system_db;
 
-#CREATE DATABASE colonial_journey_management_system_db;
+CREATE DATABASE colonial_journey_management_system_db;
 
-#use colonial_journey_management_system_db;
+use colonial_journey_management_system_db;
 
 
 CREATE TABLE planets(
