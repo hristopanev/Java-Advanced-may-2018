@@ -37,6 +37,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return String.format("%s, %d, %s%n", this.getName(), this.getAge(), this.getBirthDate());
+        return String.format("%s, %d, %s%n", this.name, this.age, this.birthDate);
     }
 }

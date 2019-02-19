@@ -1,73 +1,56 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class p04 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        Map<String, Integer> initiatives = new TreeMap<>();
-        Map<String, Map<String, Integer>> stations = new TreeMap<>();
-        List<String> originalStations = new ArrayList<>();
-        originalStations.add("Hydra");
-        originalStations.add("Arrow");
-        originalStations.add("Flame");
-        originalStations.add("Pearl");
-        originalStations.add("Orchid");
+        int[] firstInputNumbers = Arrays.stream(reader.readLine().split("\\s+"))
+                .mapToInt(Integer::parseInt)
+                .toArray();
 
-        Map<String, String> stationNames = new HashMap<String, String>() {{
-            put("Arrow", "Development of defensive strategies, and Intelligence gathering.");
-            put("Hydra", "Zoological Research.");
-            put("Flame", "Communication.");
-            put("Pearl", "Psychological Research and/or Observation.");
-            put("Orchid", "Space-time manipulation research, disguised as a Botanical station.");
-        }};
+        int[] secondInputNumbers = Arrays.stream(reader.readLine().split("\\s+"))
+                .mapToInt(Integer::parseInt)
+                .toArray();
 
+        ArrayDeque<Integer> theNumbers = new ArrayDeque<>();
+        ArrayDeque<Integer> queue = new ArrayDeque<>();
 
-        String line;
-        while (true) {
-            if ("recruit".equalsIgnoreCase(line = reader.readLine())) {
-                break;
-            }
+        fillNumbers(firstInputNumbers, theNumbers);
+        fillNumbers(secondInputNumbers, queue);
 
-            String[] tokens = line.split(":");
+        List<Integer> resultList = new ArrayList<>();
+        while (resultList.size() != 6) {
+            int firstNumber = theNumbers.pop();
+            int secondNumber = queue.pop();
 
-            String personName = tokens[0];
-            int facilityNumber = Integer.parseInt(tokens[1]);
-            String stationName = tokens[2];
-
-            if (!originalStations.contains(stationName)){
+            if (secondNumber % firstNumber == 0) {
+                resultList.add(secondNumber);
                 continue;
+            } else if (secondNumber % firstNumber != 0) {
+                queue.addLast(secondNumber + 1);
+                theNumbers.addFirst(firstNumber);
             }
-
-            if (!initiatives.containsKey(stationName)){
-                initiatives.put(stationName, +1);
-            }else {
-                initiatives.put(stationName, +1);
-            }
-
-            if (!stations.containsKey(stationName)){
-                stations.putIfAbsent(stationName, new LinkedHashMap<>());
-            }
-            stations.get(stationName).put(personName, facilityNumber);
         }
 
-        line = reader.readLine();
-        if ("DHARMA Initiative".equalsIgnoreCase(line)){
-            for (Map.Entry<String, Map<String, Integer>> entry : stations.entrySet()) {
-                System.out.printf("The %s has %d DHARMA recruits in it.%n", entry.getKey(), entry.getValue().size());
+        List<String> result = new ArrayList<>();
+        for (Integer integer : resultList) {
+            result.add(integer.toString());
+        }
 
-            }
-        }else if (stationNames.containsKey(line)){
-            if (stations.get(line).size() > 0) {
-                System.out.printf("The %s station: %s%n", line, stationNames.get(line));
-                stations.get(line).entrySet().stream()
-                        .sorted((a, b) -> b.getValue().compareTo(a.getValue()))
-                        .forEach(x -> System.out.printf("###%s - %d%n", x.getKey(), x.getValue()));
-            }
-        }else {
-            System.out.printf("DHARMA Initiative does not have such a station!");
+        System.out.println(String.join(", ", result));
+
+
+    }
+
+    private static void fillNumbers(int[] inputNumbers, ArrayDeque<Integer> numbers) {
+        for (int number : inputNumbers) {
+            numbers.add(number);
         }
     }
 }

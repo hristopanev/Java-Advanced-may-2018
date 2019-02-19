@@ -3,6 +3,7 @@ import repository.Repository;
 
 public class Main {
     public static void main(String[] args) {
+
         //Initialize the repository
         Repository repository = new Repository();
 
@@ -16,12 +17,12 @@ public class Main {
         Person secondPerson = new Person("Gosho", 42, "21-09-1976");
         repository.add(secondPerson);
 
-        System.out.println(person.toString());
+        System.out.println(repository.get(0).toString());
         //Name: Pesho
         //Age: 14
         //Birthday: 13-07-2004
 
-        System.out.println(person.toString());
+        System.out.println(repository.get(1).toString());
         //Name: Gosho
         //Age: 42
         //Birthday: 21-09-1976
@@ -30,7 +31,7 @@ public class Main {
         //Update person with id 1
         repository.update(1, new Person("Success", 20, "01-01-1999"));
 
-        System.out.println(person.toString());
+        System.out.println(repository.get(1).toString());
         //Name: Success
         //Age: 20
         //Birthday: 01-01-1999
@@ -41,5 +42,4 @@ public class Main {
         System.out.println(repository.getCount());
         //1
     }
-
 }

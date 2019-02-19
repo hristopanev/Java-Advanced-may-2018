@@ -5,11 +5,11 @@ import java.util.TreeMap;
 
 public class Repository {
     private TreeMap<Integer, Person> personMap;
+    private Person person;
 
     public Repository() {
         this.personMap = new TreeMap<>();
     }
-
 
 
     public void add(Person person){
@@ -23,8 +23,8 @@ public class Repository {
 
     }
 
-    public void get(int id){
-        this.personMap.get(id);
+    public Person get(int id){
+        return this.personMap.get(id);
     }
 
     public boolean update(int id, Person newPerson){

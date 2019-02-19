@@ -8,7 +8,7 @@ public class p02 {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         int inputLine = Integer.parseInt(reader.readLine());
-        Map<String, List<String>> exel = new TreeMap<>();
+        Map<String, List<String>> exel = new LinkedHashMap<>();
 
         String[] input = reader.readLine().split(", ");
 
@@ -29,12 +29,24 @@ public class p02 {
 
 
 
-        String commands = reader.readLine();
+        String[] commands = reader.readLine().split("\\s+");
 
-        if ("sort name".equalsIgnoreCase(commands)){
-            for (Map.Entry<String, List<String>> entry : exel.entrySet()) {
-                System.out.printf("%s%s%n", entry.getKey(), String.join("", entry.getValue()));
-            }
+        if ("sort".equalsIgnoreCase(commands[0])){
+            exel.entrySet().stream()
+                    .sorted(Comparator.comparing(Map.Entry::getKey))
+                    .forEach(x -> System.out.printf("%s%s%n", x.getKey(), String.join("", x.getValue())));
+
+//            for (Map.Entry<String, List<String>> entry : exel.entrySet()) {
+//                System.out.printf("%s%s%n", entry.getKey(), String.join("", entry.getValue()));
+//            }
+        }else if ("filter".equalsIgnoreCase(commands[0])){
+            exel.entrySet().stream()
+                    .filter(a -> a.getKey().contains(commands[2]))
+                    .forEach(x -> System.out.printf("%s%s%n", x.getKey(), String.join("", x.getValue())));
+        }else if ("hide".equalsIgnoreCase(commands[0])){
+            exel.entrySet().stream()
+                    .filter(a -> !a.getKey().contains(commands[1]))
+                    .forEach(x -> System.out.printf("%s%s%n", x.getKey(), String.join("", x.getValue())));
         }
     }
 }
