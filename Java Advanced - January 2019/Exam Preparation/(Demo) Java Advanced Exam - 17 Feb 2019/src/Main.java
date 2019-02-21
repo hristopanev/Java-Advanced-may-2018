@@ -1,11 +1,11 @@
+import repository.NewRepository;
 import repository.Person;
-import repository.Repository;
 
 public class Main {
     public static void main(String[] args) {
 
         //Initialize the repository
-        Repository repository = new Repository();
+        NewRepository repository = new NewRepository();
 
         //Initialize Person
         Person person = new Person("Pesho", 14, "13-07-2004");

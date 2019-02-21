@@ -3,7 +3,7 @@ package repository;
 public class Person {
     private String name;
     private Integer age;
-    private  String birthDate;
+    private String birthDate;
 
     public Person(String name, Integer age, String birthDate) {
         this.name = name;
@@ -37,6 +37,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return String.format("%s, %d, %s%n", this.name, this.age, this.birthDate);
+        return String.format("Name: %s%nAge: %d%nBirthDate: %s%n",
+                this.name,
+                this.age,
+                this.birthDate);
     }
 }
