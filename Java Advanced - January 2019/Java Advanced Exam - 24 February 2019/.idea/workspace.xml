@@ -14,9 +14,14 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+<<<<<<< HEAD
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="1" />
+=======
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.8" value="1" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
           <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
@@ -74,7 +79,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/heroRepository/HeroRepository.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="289">
+=======
+            <state relative-caret-position="255">
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
               <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,8 +95,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/p01.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="337">
               <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+=======
+            <state relative-caret-position="279">
+              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,6 +152,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,18 +169,24 @@
               <item name="Java Advanced Exam - 24 February 2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="Java Advanced Exam - 24 February 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java Advanced Exam - 24 February 2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="heroRepository" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,13 +251,22 @@
       <option name="presentableId" value="Default" />
       <updated>1550992854340</updated>
       <workItem from="1550992862014" duration="15203000" />
+<<<<<<< HEAD
       <workItem from="1551450454431" duration="9000" />
       <workItem from="1551450783775" duration="4000" />
+=======
+      <workItem from="1551180202232" duration="214000" />
+      <workItem from="1551189442170" duration="13000" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="15216000" />
+=======
+    <option name="totallyTimeSpent" value="15430000" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="20" width="1532" height="800" extended-state="0" />
@@ -242,7 +276,11 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20923913" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20855978" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -273,6 +311,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -285,6 +324,8 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/demo.java" />
     <entry file="file://$PROJECT_DIR$/src/heroRepository/Hero.java">
@@ -305,12 +346,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/heroRepository/HeroRepository.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="289">
+=======
+        <state relative-caret-position="255">
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
           <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -320,8 +372,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p01.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="337">
           <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+=======
+        <state relative-caret-position="279">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

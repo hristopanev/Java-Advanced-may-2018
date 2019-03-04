@@ -13,12 +13,21 @@
     <session id="-2132265134">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="5" />
+=======
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="6" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,7 +55,11 @@
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,6 +103,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,8 +116,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
+=======
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,16 +218,28 @@
       <workItem from="1550659172531" duration="6877000" />
       <workItem from="1550764830779" duration="531000" />
       <workItem from="1550823428746" duration="1061000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1551189460623" duration="2000" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="20752000" />
+=======
+    <option name="totallyTimeSpent" value="20754000" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="4" width="1524" height="828" extended-state="0" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18306011" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18579236" />
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -282,11 +312,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#845#846#0" expanded="true" />
             <element signature="e#884#885#0" expanded="true" />
           </folding>
+=======
+>>>>>>> b6c43e95199d3310e458d8f983a83cc75d3bc198
         </state>
       </provider>
     </entry>
