@@ -12,6 +12,6 @@ public class Bus extends VehicleImp {
 
     @Override
     public String drive(double distance) {
-        return "Bus " + super.drive(distance);
+        return "Bus " +  super.drive(distance);
     }
 }
