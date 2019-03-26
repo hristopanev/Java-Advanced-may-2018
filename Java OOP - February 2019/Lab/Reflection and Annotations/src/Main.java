@@ -6,7 +6,7 @@ import java.util.*;
 
 @Subject(categories = {"Test", "Pesho"})
 public class Main {
-    public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InvocationTargetException, InstantiationException {
+    public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InvocationTargetException, InstantiationException, NoSuchMethodException {
 
         Reflection reflection = new Reflection();
 
@@ -64,6 +64,5 @@ public class Main {
                 .forEach(f -> System.out.println(f.getName() + " have to be private"));
 
 
-        
     }
 }
