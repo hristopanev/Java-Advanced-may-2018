@@ -115,7 +115,7 @@ public abstract class Hardware {
                     .stream()
                     .map(Software::getName)
                     .toArray(String[]::new);
-            
+
             if (values.length == 0){
                 sb.append("None");
             }else {
