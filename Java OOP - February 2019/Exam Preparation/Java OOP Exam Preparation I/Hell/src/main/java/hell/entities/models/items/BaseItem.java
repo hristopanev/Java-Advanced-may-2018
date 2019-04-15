@@ -25,6 +25,7 @@ public abstract   class BaseItem implements Item {
         return this.name;
     }
 
+
     @Override
     public int getStrengthBonus() {
         return this.strengthBonus;
