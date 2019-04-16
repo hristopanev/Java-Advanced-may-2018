@@ -1,8 +1,10 @@
-package panzer.entities.parts;
+package panzer.entities.part;
+
+import panzer.contracts.AttackModifyingPart;
 
 import java.math.BigDecimal;
 
-public class ArsenalPart extends BaseParts {
+public class ArsenalPart extends BasePart implements AttackModifyingPart {
 
     private int attackModifier;
 
@@ -11,6 +13,7 @@ public class ArsenalPart extends BaseParts {
         this.attackModifier = attackModifier;
     }
 
+    @Override
     public int getAttackModifier() {
         return this.attackModifier;
     }

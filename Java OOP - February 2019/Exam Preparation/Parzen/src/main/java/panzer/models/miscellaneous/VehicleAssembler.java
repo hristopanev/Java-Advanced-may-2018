@@ -14,15 +14,15 @@ public class VehicleAssembler implements Assembler {
     private List<HitPointsModifyingPart> enduranceParts;
 
     public VehicleAssembler() {
-        this.arsenalParts = new ArrayList<>();
-        this.shellParts = new ArrayList<>();
-        this.enduranceParts = new ArrayList<>();
+        this.arsenalParts = new ArrayList<AttackModifyingPart>();
+        this.shellParts = new ArrayList<DefenseModifyingPart>();
+        this.enduranceParts = new ArrayList<HitPointsModifyingPart>();
     }
 
     @Override
     public double getTotalWeight() {
         return this.arsenalParts.stream().mapToDouble((x) -> x.getWeight()).sum()
-                + this.shellParts.stream().mapToDouble((x) -> x.getWeight()).sum()
+                - this.shellParts.stream().mapToDouble((x) -> x.getWeight()).sum()
                 + this.enduranceParts.stream().mapToDouble((x) -> x.getWeight()).sum();
     }
 
