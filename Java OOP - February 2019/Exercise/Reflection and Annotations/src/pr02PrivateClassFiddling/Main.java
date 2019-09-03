@@ -38,6 +38,7 @@ public class Main {
 
 
 
+
 	private static void runCommand(String command, int value, BlackBoxInt blackBoxInt) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
 		Method method = blackBoxInt.getClass().getDeclaredMethod(command, int.class);
 		method.setAccessible(true);
