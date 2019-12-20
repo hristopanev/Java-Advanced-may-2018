@@ -1,0 +1,117 @@
+package heroRepository;
+ 
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.exceptions.base.MockitoException;
+ 
+import static org.junit.Assert.;
+ 
+public class HeroRepositoryTest {
+    private HeroRepository heroRepository;
+ 
+    @Before
+    public void setUp() throws Exception {
+        this.heroRepository = new HeroRepository();
+    }
+ 
+    @Test
+    public void add() {
+        Hero mock = Mockito.mock(Hero.class);
+ 
+        this.heroRepository.add(mock);
+ 
+        Assert.assertEquals(1, this.heroRepository.getCount());
+    }
+ 
+    @Test(expected = IllegalArgumentException.class)
+    public void testAddingWrongHero() {
+        Hero pesho = Mockito.mock(Hero.class);
+        Mockito.when(pesho.getName()).thenReturn(Pesho);
+ 
+        this.heroRepository.add(pesho);
+        this.heroRepository.add(pesho);
+    }
+ 
+    @Test
+    public void remove() {
+        Hero mock = Mockito.mock(Hero.class);
+        Mockito.when(mock.getName()).thenReturn(Pesho);
+ 
+        this.heroRepository.add(mock);
+        this.heroRepository.remove(Pesho);
+ 
+        Assert.assertEquals(0, this.heroRepository.getCount());
+ 
+    }
+ 
+    @Test(expected = NullPointerException.class)
+    public void testRemoveNotExistingHero(){
+        this.heroRepository.remove(Pesho);
+    }
+ 
+    @Test
+    public void getHeroWithHighestStrength() {
+        Hero hero1 = Mockito.mock(Hero.class);
+        Mockito.when(hero1.getItem()).thenReturn(Mockito.mock(Item.class));
+        Mockito.when(hero1.getItem().getStrength()).thenReturn(100);
+        Mockito.when(hero1.getName()).thenReturn(Pesho);
+        Hero hero2 = Mockito.mock(Hero.class);
+        Mockito.when(hero2.getItem()).thenReturn(Mockito.mock(Item.class));
+        Mockito.when(hero2.getItem().getStrength()).thenReturn(200);
+        Mockito.when(hero2.getName()).thenReturn(Gosho);
+ 
+        this.heroRepository.add(hero1);
+        this.heroRepository.add(hero2);
+ 
+        Hero heroWithHighestStrength = this.heroRepository.getHeroWithHighestStrength();
+ 
+        Assert.assertEquals(Gosho, heroWithHighestStrength.getName());
+ 
+    }
+ 
+    @Test
+    public void getHeroWithHighestAgility() {
+        Hero hero1 = Mockito.mock(Hero.class);
+        Mockito.when(hero1.getItem()).thenReturn(Mockito.mock(Item.class));
+        Mockito.when(hero1.getItem().getAgility()).thenReturn(100);
+        Mockito.when(hero1.getName()).thenReturn(Pesho);
+        Hero hero2 = Mockito.mock(Hero.class);
+        Mockito.when(hero2.getItem()).thenReturn(Mockito.mock(Item.class));
+        Mockito.when(hero2.getItem().getAgility()).thenReturn(200);
+        Mockito.when(hero2.getName()).thenReturn(Gosho);
+ 
+        this.heroRepository.add(hero1);
+        this.heroRepository.add(hero2);
+ 
+        Hero getHeroWithHighestAgility = this.heroRepository.getHeroWithHighestAgility();
+ 
+        Assert.assertEquals(Gosho, getHeroWithHighestAgility.getName());
+    }
+ 
+    @Test
+    public void getHeroWithHighestIntelligence() {
+        Hero hero1 = Mockito.mock(Hero.class);
+        Mockito.when(hero1.getItem()).thenReturn(Mockito.mock(Item.class));
+        Mockito.when(hero1.getItem().getIntelligence()).thenReturn(100);
+        Mockito.when(hero1.getName()).thenReturn(Pesho);
+        Hero hero2 = Mockito.mock(Hero.class);
+        Mockito.when(hero2.getItem()).thenReturn(Mockito.mock(Item.class));
+        Mockito.when(hero2.getItem().getIntelligence()).thenReturn(200);
+        Mockito.when(hero2.getName()).thenReturn(Gosho);
+ 
+        this.heroRepository.add(hero1);
+        this.heroRepository.add(hero2);
+ 
+        Hero getHeroWithHighestIntelligence = this.heroRepository.getHeroWithHighestIntelligence();
+ 
+        Assert.assertEquals(Gosho, getHeroWithHighestIntelligence.getName());
+    }
+ 
+    @Test
+    public void getCount() {
+        Assert.assertEquals(0, this.heroRepository.getCount());
+    }
+}
